@@ -1,5 +1,6 @@
 # sicl-encoder
-## S.I.C.L. - Silly Image Compression Lossy. This probably doesn't actually save space, but it's nice to imagine.
+## S.I.C.L. - Silly Image Compression Lossy.
+## This probably doesn't actually save much, if any space, but it's nice to imagine.
 
 ### Limitations
 SICL only works for images with a max width of 256 and 256 colors. The Python encoder will account for colors and quantize the image if there are too many colors, but does not resize the image if it is too large.
