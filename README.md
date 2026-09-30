@@ -1,5 +1,5 @@
 # sicl-encoder
-## S.I.C.L. - Silly Image Compression Lossy.
+## S.I.C.L. - Silly Image Compression Lossy. (Sickle)
 ## This probably doesn't actually save much, if any space, but it's nice to imagine.
 
 ### Limitations
