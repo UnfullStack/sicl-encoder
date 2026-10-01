@@ -2,10 +2,10 @@
 ### S.I.C.L. - Simple Image Compression Lossy. (Sickle)
 ### This probably doesn't actually save much, if any space, but it's nice to imagine.
 
-### Limitations
+#### Limitations
 SICL only works for images with a max width of 256 and 256 colors. The Python encoder will account for colors and quantize the image if there are too many colors, but does not resize the image if it is too large.
 
-### Explanation
+#### Explanation
 SICL works by indexing colors in an array.
 
 SICL is split up into what I'll call "chunks". Chunks can range from just 1 byte to thousands or more. It's just how the file is split up, there's no specific size.
