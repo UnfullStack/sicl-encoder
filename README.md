@@ -18,3 +18,9 @@ SICL is split up into what I'll call "chunks". Chunks can range from just 1 byte
 | 4 | Color indexes |  Variable, 1 per entry |
 
 Height doesn't need to be saved because color indexes are sorted left to right, so you can just use the width and amount of indexes to find the height.
+
+## .sicl2 format
+The script does not yet support this format, and I haven't created any files with it, but the idea is fairly simple: Remove some of the limitations of the format (or at least make them much more favorable) by increasing both the width and color count from taking up 1 byte each to 2 bytes each.
+
+## Notes
+I'm sure people who are familiar with working with files like this are wondering why I don't have a header like PNG or JPG do. In all honesty, while I did consider it, I ended up deciding not to, as it's not like I'm planning to make this the new standard or something like that. It's a project I did for fun, and I'm not exactly worried about identifying this.
